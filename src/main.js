@@ -9,7 +9,7 @@ import GMaps from "vuejs3-google-maps";
 
 createApp(App).use(store).use(router).use(VueGeolocation).use(GMaps, {
     load: {
-      apiKey: "AIzaSyCZgr16JUc3aW1jeuYam3FaWHW89PfY08Q",
+      apiKey: process.env.VUE_APP_MYKEY,
       libraries: ["places"],
     },
   }).mount('#app')

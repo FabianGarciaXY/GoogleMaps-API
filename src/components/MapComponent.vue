@@ -49,7 +49,7 @@ export default {
       },
       address: {
         query: "Albania, Tirane",
-        zoom: 10,
+        zoom: 12,
       },
       manually: {
         address_description: "21 Dhjetori, Tirana, Albania",
@@ -59,7 +59,7 @@ export default {
         lng: 19.8060475,
         state: "Tirana County",
         zip_code: "",
-        zoom: 17,
+        zoom: 12,
       },
       place: {},
       form_data: {},
@@ -80,15 +80,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .map_holder {
-  width: 100%;
-  height: 450px;
-  float: left;
+  width: 200px;
+  height: 300px;
 }
 
 .results {
-  position: absolute;
   border-radius: 5px;
   border: 2px solid;
   display: flex;
